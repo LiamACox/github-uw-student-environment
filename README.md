@@ -1,4 +1,4 @@
-<h1>Contributing to the Repository</h1>
+<h1>Contributing to a Repository</h1>
 
 <h2>Pulling</h2>
 
@@ -53,13 +53,9 @@ Once your branch has been merged, you can delete from your local repository with
 
 In the case where a branch is deleted using the Github interface, it can still show up as available when you use the `git branch -a` command. To automatically get rid of any stale remote branches, you can use the command `git remote prune origin`.
 
-<h3>Merge Conflicts</h3>
+<h1>Cloning A Repository</h1>
 
-**WIP**
-
-<h1>Cloning the Repository</h1>
-
-In order to get the project repository on your student server, run the command `git clone git@github.com:LiamACox/cs246-final-project.git`.
+In order to get the project repository on your student server, run the command `git clone git@github.com:<github_username>/<repository_name>.git`.
 
 Additionally, you will want to change your username and email in the repository config. When we first started using git, we changed the global username and email config. 
 
@@ -67,7 +63,7 @@ Use the commands `git config user.name "<your Github username>"` and `git config
  
 <h1>Setting up Github on the Student Server</h1>
 
-If you have used Git for external projects on the student server before, run the command `ls -al ~/.ssh`. if the output includes a file called `id_ed25519.pub` skip to **Step 6)** using the already existing key. 
+If you have used Git for external projects or have created SSH keys on the student server before, run the command `ls -al ~/.ssh`. If the output includes a file called `id_ed25519.pub` skip to **Step 6)** using the already existing key. 
 
 1) Create an SSH key using `ssh-keygen -t ed25519 -C "your_email@example.com"`. Use the same email as your Github account.
 2) When prompted for the location of the key, leave it untouched. It should look something like `/u0/WATIAM/.ssh/id_ed25519`.
