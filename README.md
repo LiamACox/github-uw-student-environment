@@ -57,9 +57,9 @@ In the case where a branch is deleted using the Github interface, it can still s
 
 In order to get the project repository on your student server, run the command `git clone git@github.com:<github_username>/<repository_name>.git`.
 
-Additionally, you will want to change your username and email in the repository config. When we first started using git, we changed the global username and email config. 
+Additionally, you may want to change your username and email in the repository config. When we first started using git, we changed the global username and email config to our UWaterloo ID and email. 
 
-Use the commands `git config user.name "<your Github username>"` and `git config user.email yourgithubemail@provider.com` while in the project directory to override these settings.
+Use the commands `git config user.name "<your Github username>"` and `git config user.email yourgithubemail@provider.com` while in the project directory to locally override these settings.
  
 <h1>Setting up Github on the Student Server</h1>
 
